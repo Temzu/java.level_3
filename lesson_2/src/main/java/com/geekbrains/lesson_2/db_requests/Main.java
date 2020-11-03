@@ -20,7 +20,7 @@ public class Main {
             changeFirstEntry();
             //add1000Entries();
             //add1000EntriesPrepareStatement();
-            //addEntriesFromFile();
+            addEntriesFromFile();
             selectFromTable();
             //dropTable();
         } catch (SQLException e) {
@@ -29,7 +29,21 @@ public class Main {
         disconnect();
     }
 
-    
+    private static void addEntriesFromFile() throws SQLException {
+        try {
+            DataInputStream inputStream = new DataInputStream(new FileInputStream("text.txt"));
+            Scanner scanner = new Scanner(inputStream);
+            conn.setAutoCommit(false);
+            while (scanner.hasNext()) {
+                String[] entry = scanner.nextLine().split(" ");
+                stmt.executeUpdate("INSERT INTO students (name, score) VALUES ('"+ entry[1] + "', " + entry[2] + ");");
+            }
+            conn.setAutoCommit(true);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+
     private static void add1000EntriesPrepareStatement() throws SQLException {
         pstmt = conn.prepareStatement("INSERT INTO students (name, score) VALUES (?, ?);");
         conn.setAutoCommit(false);
