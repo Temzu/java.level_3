@@ -13,6 +13,44 @@ public class Main {
         wnt1.start();
         wnt2.start();
         wnt3.start();
+
+        MFD mfd = new MFD();
+        mfd.start();
+        Employee employee1 = new Employee(new Runnable() {
+            @Override
+            public void run() {
+                mfd.scan();
+            }
+        });
+        Employee employee2 = new Employee(new Runnable() {
+            @Override
+            public void run() {
+                mfd.photocopy();
+            }
+        });
+        Employee employee3 = new Employee(new Runnable() {
+            @Override
+            public void run() {
+                mfd.scan();
+            }
+        });
+        Employee employee4 = new Employee(new Runnable() {
+            @Override
+            public void run() {
+                mfd.print();
+            }
+        });
+        Employee employee5 = new Employee(new Runnable() {
+            @Override
+            public void run() {
+                mfd.print();
+            }
+        });
+        employee1.start();
+        employee2.start();
+        employee3.start();
+        employee4.start();
+        employee5.start();
     }
 
     public void printA() {
