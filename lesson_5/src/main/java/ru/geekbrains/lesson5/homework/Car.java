@@ -4,6 +4,7 @@ import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 
 public class Car implements Runnable {
+    private static int flagWin = 0;
     private static int CARS_COUNT;
     private final CyclicBarrier cb;
     static {
@@ -18,7 +19,7 @@ public class Car implements Runnable {
     public int getSpeed() {
         return speed;
     }
-    public Car(Race race, int speed) {
+    public Car(Race race, int speed, CyclicBarrier cb) {
         this.race = race;
         this.speed = speed;
         CARS_COUNT++;
@@ -35,9 +36,21 @@ public class Car implements Runnable {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        for (int i = 0; i < race.getStages().size(); i++) {
-            race.getStages().get(i).go(this);
+        try {
+            cb.await();
+            cb.await();
+            for (int i = 0; i < race.getStages().size(); i++) {
+                race.getStages().get(i).go(this);
+            }
+            if (++flagWin == 1) {
+                System.out.println(name + " - Победил!!!");
+            }
+            cb.await();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (BrokenBarrierException e) {
+            e.printStackTrace();
         }
+
     }
 }
