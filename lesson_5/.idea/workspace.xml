@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fb236361-7ad0-472c-9987-edc328ddee82" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kKOR7UBunGpt0y78KLYdbuJ6mL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.lesson5.homework.MainClass" />
+      <module name="lesson_5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainClass" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb236361-7ad0-472c-9987-edc328ddee82" name="Default Changelist" comment="" />
+      <created>1605445806314</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605445806314</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1605445824259">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1605445824259" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1605445991922">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605445991922" />
+    <state x="850" y="446" key="FileChooserDialogImpl" timestamp="1605456675237">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="850" y="446" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605456675237" />
+    <state width="1860" height="282" key="GridCell.Tab.0.bottom" timestamp="1605456846777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605456846777" />
+    <state width="1860" height="282" key="GridCell.Tab.0.center" timestamp="1605456846777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605456846777" />
+    <state width="1860" height="282" key="GridCell.Tab.0.left" timestamp="1605456846777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605456846777" />
+    <state width="1860" height="282" key="GridCell.Tab.0.right" timestamp="1605456846777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605456846777" />
+    <state x="661" y="362" key="new project wizard" timestamp="1605456842912">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="362" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1605456842912" />
+  </component>
+</project>
